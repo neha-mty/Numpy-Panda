@@ -1,0 +1,15 @@
+# create virtual environment
+option-1 : uv venv
+option-2 : uv venv environment_name
+
+# Run python file (.py)
+option-1 : uv run python file.py
+option-2 : 
+          Step 1 : environment_name\Scripts\activate
+	  Step 2 : python file.py
+
+# if kernels keep looping in "detecting"
+
+run this command after activating your environment in terminal : 
+command-1 : python -m ensurepip --upgrade
+command-2 : python -m pip install ipykernel
