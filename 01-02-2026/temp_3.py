@@ -1,3 +1,6 @@
+# this is just to save myself from showing blank on active daysssssssss.
+#too sad life 
+
 import os
 
 print("Try except block started.")
